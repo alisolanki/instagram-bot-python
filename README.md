@@ -26,5 +26,5 @@ Instagram Bot that sends messages to multiple people using tkinter and an easy t
 <br/>`python3 instabot.py`
 
 <div align=center>
-### Created with 💜 by <a href="https://www.buymeacoffee.com/alisolanki">Ali Solanki</a>
+Created with 💜 by <a href="https://www.buymeacoffee.com/alisolanki">Ali Solanki</a>
 </div>
