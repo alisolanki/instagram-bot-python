@@ -5,6 +5,9 @@ Instagram Bot that sends messages to multiple people using tkinter and an easy t
 <img width=45% src="https://github.com/alisolanki/instagram-bot-python/blob/master/2.png"/>
 <img src="https://github.com/alisolanki/instagram-bot-python/blob/master/1.png"/>
 
+## Presentation
+<embed>https://github.com/alisolanki/instagram-bot-python/blob/master/Instagram%20Bot%20Ppt.pdf</embed>
+
 ## Installation
 1. Download virtual environment if not installed already through your terminal/cmd:
 <br/>`python3 -m pip install --user virtualenv`
