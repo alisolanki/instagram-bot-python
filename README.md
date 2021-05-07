@@ -13,8 +13,8 @@ Instagram Bot that sends messages to multiple people using tkinter and an easy t
 <br/>`python3 -m pip install --user virtualenv`
 
 2. Create a python virtual environment so that the dependencies need not be installed globally:
-<br/>Make sure you name it 'venv'
-<br/>`python3 -m venv venv`
+<br/>Make sure you name it 'env' for the .gitignore
+<br/>`python3 -m venv env`
 <br/>Mac:
 <br/>`source env/bin/activate`
 <br/>Windows:
