@@ -1,19 +1,26 @@
 import tkinter as tk
 import customtkinter
 
-#root_tk =customtkinter.CTk()
 
 window = customtkinter.CTk()  # create CTk window like you do with the Tk window
 window.geometry("1000x600")
-#window = tk.Tk()
 window.title("Instagram Messenger Bot")
-#window.configure(bg="#494949")
 customtkinter.set_appearance_mode("System")  # Modes: system (default), light, dark
 customtkinter.set_default_color_theme("blue")  # Themes: blue (default), dark-blue, green
 
 #--0.0-------WELCOME-----------
-tk.Label(window, text="Welcome", font=(
-    "Gill Sans", 36), bg="#6f6f6f").pack(pady=10)
+text_var1 = tk.StringVar(value="WELCOME")
+
+label1 = customtkinter.CTkLabel(master=window,
+                               textvariable=text_var1,
+                               width=120,
+                               height=25,
+                               font=("Harrington",56),
+                               text_color="white",
+                               fg_color=("transparent"),
+                               corner_radius=8)
+#label1.pack(padx=40, pady=20)
+label1.place(relx=0.5, rely=0.05, anchor=tk.CENTER)
 
 
 #--1.0--------YOUR USERNAME------------
@@ -76,13 +83,14 @@ label3 = customtkinter.CTkLabel(master=window,
                                fg_color=("transparent"),
                                corner_radius=8)
 #label3.pack(padx=400, pady=200)
-label3.place(relx=0.1, rely=0.325, anchor=tk.NW)
+label3.place(relx=0.1, rely=0.325)
 
 #---Message entry box
 entry3 = customtkinter.CTkEntry(master=window, 
                                 placeholder_text="Enter message to be sent",
                                 width=750,
-                                height=100)
+                                height=100,
+                                )
 #entry3.pack(padx=200, pady=100)
 entry3.place(relx=0.12, rely=0.4, anchor=tk.NW)
 
