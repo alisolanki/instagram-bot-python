@@ -1,5 +1,5 @@
 # instagram-bot-python
-Instagram Bot that sends messages to multiple people using tkinter and an easy to use GUI.
+Instagram Bot that sends messages to multiple people using an easy to use GUI.
 
 ## Preview
 ![image](https://user-images.githubusercontent.com/74728374/232334237-6300b193-54af-4c0d-87cd-af881867dc42.png)
