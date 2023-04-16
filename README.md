@@ -2,7 +2,7 @@
 Instagram Bot that sends messages to multiple people using an easy to use GUI.
 
 ## Preview
-<img width=45% src="https://github.com/alisolanki/instagram-bot-python/blob/master/2.png"/>
+![image](https://user-images.githubusercontent.com/74728374/232339433-16e12f42-4bcd-49d8-bdd2-2a167dee94c9.png)
 ![image](https://user-images.githubusercontent.com/74728374/232334237-6300b193-54af-4c0d-87cd-af881867dc42.png)
 
 ## Presentation
